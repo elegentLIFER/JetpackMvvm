@@ -77,6 +77,8 @@ abstract class BasePageListActivity<VM : BaseViewModel, VB: ViewBinding,T> : Bas
 
     /**
      * 子类需要提供的请求逻辑
+     * @param isRefresh 是否是刷新请求
+     * @param loadingXml 请求时是否展示loading布局
      */
     abstract fun provideRequest(isRefresh: Boolean, loadingXml: Boolean): LiveData<ApiResult<ApiPagerResponse<T>>>
 

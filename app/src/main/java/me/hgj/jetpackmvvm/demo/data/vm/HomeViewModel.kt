@@ -11,17 +11,12 @@ import me.hgj.jetpackmvvm.demo.data.model.entity.BannerResponse
 import me.hgj.jetpackmvvm.demo.data.repository.request.HomeRepository
 import rxhttp.safeAsync
 
-/**
- * 作者　：hegaojian
- * 时间　：2025/9/30
- * 描述　：
- */
 class HomeViewModel : BaseViewModel() {
 
     private var pageIndex = 0
 
     /** banner 临时数据 */
-    var bannerData:ArrayList<BannerResponse> = arrayListOf()
+    var bannerData : ArrayList<BannerResponse> = arrayListOf()
 
     /**
      * 获取列表数据

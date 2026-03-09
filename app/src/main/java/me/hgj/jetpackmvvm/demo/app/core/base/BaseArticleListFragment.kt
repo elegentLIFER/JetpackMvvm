@@ -29,8 +29,6 @@ import me.hgj.jetpackmvvm.ext.view.vertical
 import me.hgj.jetpackmvvm.util.decoration.DividerOrientation
 
 /**
- * 作者　：hegaojian
- * 时间　：2025/9/30
  * 说明　：因为玩安卓这个项目其实大部分页面都是带文章的，全是重复的代码，所以这里直接封装了页面+adapter，只需要关心 请求数据就好了
  */
 abstract class BaseArticleListFragment<VM : BaseViewModel,T> : BaseFragment<VM, IncludeRecyclerviewBinding>() {

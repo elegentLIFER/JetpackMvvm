@@ -20,8 +20,6 @@ import me.hgj.jetpackmvvm.ext.util.logD
 import me.hgj.jetpackmvvm.ext.util.statusPadding
 
 /**
- * 作者　: hegaojian
- * 时间　: 2025/9/26
  * 描述　: 根据业务定义自己的基类Fragment ，注意：仅供参考 这里是demo ，随便你怎么造都行，请根据自己的业务来
  */
 abstract class BaseFragment<VM : BaseViewModel, VB : ViewBinding> (): BaseVbFragment<VM, VB>() {
@@ -62,7 +60,6 @@ abstract class BaseFragment<VM : BaseViewModel, VB : ViewBinding> (): BaseVbFrag
         }
     }
 
-
     /**
      * 这个基类定义了一个头部布局，那么状态布局就让它只加载 除头部的布局了，不然会默认将整个页面都包裹
      */
@@ -72,6 +69,4 @@ abstract class BaseFragment<VM : BaseViewModel, VB : ViewBinding> (): BaseVbFrag
         super.onDestroyView()
         _baseBinding = null
     }
-
-
 }

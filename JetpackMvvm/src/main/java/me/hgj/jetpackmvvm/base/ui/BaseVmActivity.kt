@@ -21,11 +21,6 @@ import me.hgj.jetpackmvvm.widget.loadsir.callback.SuccessCallback
 import me.hgj.jetpackmvvm.widget.loadsir.core.LoadService
 import me.hgj.jetpackmvvm.widget.loadsir.core.LoadSir
 
-/**
- * 作者　: hegaojian
- * 时间　: 2020/11/18
- * 描述　:
- */
 abstract class BaseVmActivity<VM : BaseViewModel> : AppCompatActivity(), BaseIView {
 
     abstract val layoutId: Int

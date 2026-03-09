@@ -14,11 +14,6 @@ import me.hgj.jetpackmvvm.demo.data.model.entity.BannerParentResponse
 import me.hgj.jetpackmvvm.demo.data.vm.HomeViewModel
 import me.hgj.jetpackmvvm.demo.ui.fragment.MainFragmentDirections
 
-/**
- * 作者　: hegaojian
- * 时间　: 2019/12/27
- * 描述　:
- */
 class HomeFragment : BaseArticleListFragment<HomeViewModel, ArticleResponse>() {
 
     override val showTitle = true
@@ -63,6 +58,6 @@ class HomeFragment : BaseArticleListFragment<HomeViewModel, ArticleResponse>() {
         isRefresh: Boolean,
         loadingXml: Boolean
     ): LiveData<ApiResult<ApiPagerResponse<ArticleResponse>>> {
-        return  mViewModel.getHomeData(isRefresh = isRefresh, loadingXml = loadingXml)
+        return mViewModel.getHomeData(isRefresh = isRefresh, loadingXml = loadingXml)
     }
 }

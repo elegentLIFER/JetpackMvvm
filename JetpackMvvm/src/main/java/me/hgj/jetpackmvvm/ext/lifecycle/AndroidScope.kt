@@ -10,11 +10,6 @@ import java.io.Closeable
 import kotlin.coroutines.CoroutineContext
 import kotlin.coroutines.EmptyCoroutineContext
 
-/**
- * 作者　: hegaojian
- * 时间　: 2023/4/3
- * 描述　:
- */
 @Suppress("unused", "MemberVisibilityCanBePrivate", "NAME_SHADOWING")
 open class AndroidScope(
     lifecycleOwner: LifecycleOwner? = null,

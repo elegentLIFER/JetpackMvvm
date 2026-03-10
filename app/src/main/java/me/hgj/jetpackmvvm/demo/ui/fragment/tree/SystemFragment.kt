@@ -23,8 +23,6 @@ import me.hgj.jetpackmvvm.ext.view.vertical
 import me.hgj.jetpackmvvm.util.decoration.DividerOrientation
 
 /**
- * 作者　: hegaojian
- * 时间　: 2020/3/3
  * 描述　: 体系
  */
 class SystemFragment : BaseListFragment<TreeViewModel, IncludeRecyclerviewBinding,SystemResponse>() {

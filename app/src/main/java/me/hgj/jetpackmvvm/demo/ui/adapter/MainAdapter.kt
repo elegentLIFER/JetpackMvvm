@@ -8,11 +8,6 @@ import me.hgj.jetpackmvvm.demo.ui.fragment.project.ProjectFragment
 import me.hgj.jetpackmvvm.demo.ui.fragment.publicNumber.PublicNumberFragment
 import me.hgj.jetpackmvvm.demo.ui.fragment.tree.TreeArrFragment
 
-/**
- * 作者　: hegaojian
- * 时间　: 2023/4/3
- * 描述　:
- */
 class MainAdapter(
     fragment: Fragment
 ) : FragmentStateAdapter(fragment) {

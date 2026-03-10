@@ -12,8 +12,6 @@ import me.hgj.jetpackmvvm.demo.data.vm.SearchViewModel
 import me.hgj.jetpackmvvm.ext.util.intent.bundle
 
 /**
- * 作者　: hegaojian
- * 时间　: 2020/3/2
  * 描述　: 搜索结果
  */
 class SearchResultFragment : BaseArticleListFragment<SearchViewModel, ArticleResponse>() {

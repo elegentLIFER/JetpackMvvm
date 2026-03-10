@@ -5,11 +5,6 @@ import me.hgj.jetpackmvvm.core.data.request
 import me.hgj.jetpackmvvm.demo.data.repository.request.PublicNumberRepository
 import me.hgj.jetpackmvvm.core.net.LoadingType
 
-/**
- * 作者　: hegaojian
- * 时间　: 2020/2/29
- * 描述　:
- */
 class PublicNumberViewModel : BaseViewModel() {
 
     private var pageNo = 1

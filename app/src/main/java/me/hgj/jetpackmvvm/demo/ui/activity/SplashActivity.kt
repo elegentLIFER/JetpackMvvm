@@ -19,11 +19,6 @@ import me.hgj.jetpackmvvm.ext.view.gone
 import me.hgj.jetpackmvvm.ext.view.visible
 import me.hgj.jetpackmvvm.ext.view.visibleOrGone
 
-/**
- * 作者　: hegaojian
- * 时间　: 2020/2/22
- * 描述　:
- */
 @Suppress("DEPRECATED_IDENTITY_EQUALS")
 class SplashActivity : BaseActivity<BaseViewModel, ActivityWelcomeBinding>() {
 
@@ -82,8 +77,4 @@ class SplashActivity : BaseActivity<BaseViewModel, ActivityWelcomeBinding>() {
         finish()
         overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)
     }
-
-
-
-
 }

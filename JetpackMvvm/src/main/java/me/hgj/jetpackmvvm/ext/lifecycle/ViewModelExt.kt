@@ -16,12 +16,6 @@ import me.hgj.jetpackmvvm.base.ui.BaseVmFragment
 import me.hgj.jetpackmvvm.base.vm.BaseViewModel
 import kotlin.also
 
-/**
- * 作者　：hegaojian
- * 时间　：2025/9/17
- * 说明　：
- */
-
 @MainThread
 inline fun <reified T : BaseViewModel> BaseVmActivity<*>.getViewModel(
     noinline extrasProducer: (() -> CreationExtras)? = null,

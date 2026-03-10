@@ -75,6 +75,7 @@ abstract class BaseVmActivity<VM : BaseViewModel> : AppCompatActivity(), BaseIVi
     override fun createObserver() {
         //一些监听放在这里面存放编写 方便管理
     }
+
     /**
      * 创建 LoadService
      */
@@ -110,7 +111,6 @@ abstract class BaseVmActivity<VM : BaseViewModel> : AppCompatActivity(), BaseIVi
      * 初始化view成功后执行
      */
     abstract fun initView(savedInstanceState: Bundle?)
-
 
     /**
      * 初始化沉浸式

@@ -15,11 +15,6 @@ import me.hgj.jetpackmvvm.ext.util.toast
 import me.hgj.jetpackmvvm.ext.view.showDialogMessage
 
 
-/**
- * 作者　: hegaojian
- * 时间　: 2020/3/12
- * 描述　:
- */
 class ErrorActivity : BaseActivity<BaseViewModel, ActivityErrorBinding>() {
 
     override fun initView(savedInstanceState: Bundle?)  {

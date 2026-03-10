@@ -39,11 +39,6 @@ import me.hgj.jetpackmvvm.ext.util.intent.bundle
 import me.hgj.jetpackmvvm.ext.util.intent.openActivity
 
 
-/**
- * 作者　: hegaojian
- * 时间　: 2020/3/3
- * 描述　:
- */
 class WebActivity : BaseActivity<WebViewModel, ActivityWebBinding>() {
 
     override val showTitle = true

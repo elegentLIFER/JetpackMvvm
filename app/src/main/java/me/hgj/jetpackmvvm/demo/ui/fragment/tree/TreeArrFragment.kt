@@ -16,8 +16,6 @@ import me.hgj.jetpackmvvm.ext.util.intent.openActivity
 import me.hgj.jetpackmvvm.ext.util.statusPadding
 
 /**
- * 作者　: hegaojian
- * 时间　: 2020/3/2
  * 描述　: 广场模块父Fragment管理四个子fragment
  */
 class TreeArrFragment : BaseFragment<TreeViewModel, FragmentViewpagerBinding>() {

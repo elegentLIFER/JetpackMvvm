@@ -15,8 +15,6 @@ import me.hgj.jetpackmvvm.ext.util.hideOffKeyboard
 import java.util.WeakHashMap
 
 /**
- * 作者　: hegaojian
- * 时间　: 2020/11/18
  * 描述　: 这里可以仿写一个你自己项目风格的loadingDialog 然后在基类调用
  */
 

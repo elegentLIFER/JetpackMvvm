@@ -7,8 +7,6 @@ import me.hgj.jetpackmvvm.demo.ui.activity.ErrorActivity
 import me.hgj.jetpackmvvm.demo.ui.activity.SplashActivity
 
 /**
- * 作者　：hegaojian
- * 时间　：2025/9/29
  * 说明　：一些工具库的初始化，按照功能可以放在异步里面初始
  */
 class UtilTask(

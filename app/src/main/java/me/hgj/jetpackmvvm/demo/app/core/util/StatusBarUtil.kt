@@ -16,13 +16,6 @@ import androidx.coordinatorlayout.widget.CoordinatorLayout
 import androidx.drawerlayout.widget.DrawerLayout
 import me.hgj.jetpackmvvm.demo.R
 
-/**
- * Created by Jaeger on 16/2/14.
- *
- *
- * Email: chjie.jaeger@gmail.com
- * GitHub: https://github.com/laobie
- */
 @SuppressLint("NonConstantResourceId")
 object StatusBarUtil {
 

@@ -11,11 +11,6 @@ import me.hgj.jetpackmvvm.demo.app.core.base.BaseActivity
 import me.hgj.jetpackmvvm.demo.databinding.ActivityMainBinding
 import me.hgj.jetpackmvvm.ext.util.toast
 
-/**
- * 作者　：hegaojian
- * 时间　：2025/9/30
- * 描述　：项目主页Activity
- */
 class MainActivity : BaseActivity<BaseViewModel, ActivityMainBinding>() {
 
     override val showTitle = false

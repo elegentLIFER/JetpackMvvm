@@ -10,8 +10,6 @@ import me.hgj.jetpackmvvm.demo.data.vm.ProjectViewModel
 import me.hgj.jetpackmvvm.ext.util.intent.bundle
 
 /**
- * 作者　: hegaojian
- * 时间　: 2020/2/28
  * 描述　: 项目子fragment
  */
 

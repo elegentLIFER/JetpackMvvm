@@ -17,11 +17,6 @@ import me.hgj.jetpackmvvm.ext.util.currentActivity
 import me.hgj.jetpackmvvm.ext.util.getColorExt
 import me.hgj.jetpackmvvm.ext.view.textString
 
-/**
- * 作者　：hegaojian
- * 时间　：2025/11/4
- * 说明　：
- */
 object PolicyUtil {
     fun showPolicyDialog(context: Context,confirm: () -> Unit) {
         if (CacheConfig.isAgree) {

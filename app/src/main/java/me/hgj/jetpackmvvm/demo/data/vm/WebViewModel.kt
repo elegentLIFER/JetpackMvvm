@@ -2,11 +2,6 @@ package me.hgj.jetpackmvvm.demo.data.vm
 
 import me.hgj.jetpackmvvm.base.vm.BaseViewModel
 
-/**
- * 作者　: hegaojian
- * 时间　: 2020/3/3
- * 描述　:
- */
 class WebViewModel : BaseViewModel() {
 
     //是否收藏

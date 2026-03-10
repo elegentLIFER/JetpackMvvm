@@ -10,8 +10,6 @@ import me.hgj.jetpackmvvm.demo.data.vm.TreeViewModel
 import me.hgj.jetpackmvvm.ext.util.intent.bundle
 
 /**
- * 作者　: hegaojian
- * 时间　: 2020/3/3
  * 描述　: 体系栏目fragment
  */
 class SystemChildFragment : BaseArticleListFragment<TreeViewModel, ArticleResponse>() {

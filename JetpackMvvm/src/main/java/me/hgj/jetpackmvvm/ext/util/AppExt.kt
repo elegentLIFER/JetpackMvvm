@@ -9,12 +9,6 @@ import android.os.Process
 import me.hgj.jetpackmvvm.core.appContext
 
 /**
- * 作者　: hegaojian
- * 时间　: 2020/11/17
- * 描述　:
- */
-
-/**
  * 获取当前进程的名称，默认进程名称是包名
  */
 val currentProcessName: String?

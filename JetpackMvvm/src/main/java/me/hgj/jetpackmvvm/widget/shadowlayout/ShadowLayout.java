@@ -24,12 +24,6 @@ import androidx.annotation.RequiresApi;
 
 import me.hgj.jetpackmvvm.R;
 
-
-/**
- * 作者　: hegaojian
- * 时间　: 2022/8/19
- * 描述　:
- */
 public class ShadowLayout extends FrameLayout {
     private Drawable clickAbleFalseDrawable;
     private int clickAbleFalseColor = -101;

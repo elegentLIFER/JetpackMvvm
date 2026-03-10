@@ -2,11 +2,6 @@ package me.hgj.jetpackmvvm.demo.app.core.net
 
 import rxhttp.wrapper.annotation.DefaultDomain
 
-/**
- * 作者　：hegaojian
- * 时间　：2025/9/29
- * 描述　：
- */
 object NetUrl {
 
     /** 代表请求成功的 code值， 这里写0 是因为 玩Android 后端成功状态为0 */

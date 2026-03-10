@@ -7,8 +7,6 @@ import me.hgj.jetpackmvvm.demo.data.repository.request.SearchRepository
 import me.hgj.jetpackmvvm.core.net.LoadingType
 
 /**
- * 作者　：hegaojian
- * 时间　：2025/10/1
  * 描述　：搜索模块下的 ViewModel
  */
 class SearchViewModel : BaseViewModel() {

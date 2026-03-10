@@ -28,8 +28,6 @@ import me.hgj.jetpackmvvm.ext.view.showDialogMessage
 import me.hgj.jetpackmvvm.ext.view.vertical
 
 /**
- * 作者　: hegaojian
- * 时间　: 2020/3/9
  * 描述　: 系统设置
  */
 class SettingFragment : PreferenceFragmentCompat(),

@@ -8,8 +8,6 @@ import rxhttp.RxHttpPlugins
 import rxhttp.wrapper.cookie.ICookieJar
 
 /**
- * 作者　：hegaojian
- * 时间　：2025/9/29
  * 说明　：用户信息管理
  */
 object UserManager {

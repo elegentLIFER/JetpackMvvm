@@ -10,8 +10,6 @@ import rxhttp.wrapper.param.RxHttp
 import rxhttp.wrapper.param.toAwaitResponse
 
 /**
- * 作者　：hegaojian
- * 时间　：2025/9/30
  * 说明　：广场模块下的数据仓库
  */
 object PlazaRepository {

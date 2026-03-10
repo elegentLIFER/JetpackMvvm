@@ -6,8 +6,6 @@ import kotlinx.android.parcel.Parcelize
 
 /**
  * 导航数据
-  * @Author:         hegaojian
-  * @CreateDate:     2019/8/26 17:40
  */
 @SuppressLint("ParcelCreator")
 @Parcelize

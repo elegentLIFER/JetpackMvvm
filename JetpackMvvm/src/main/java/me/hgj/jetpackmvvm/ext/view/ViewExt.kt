@@ -8,12 +8,6 @@ import android.view.View
 import android.widget.ImageView
 
 /**
- * 作者　: hegaojian
- * 时间　: 2020/11/18
- * 描述　:
- */
-
-/**
  * View显示
  */
 fun View?.visible() {

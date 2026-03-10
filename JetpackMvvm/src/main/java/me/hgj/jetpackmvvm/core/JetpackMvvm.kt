@@ -21,12 +21,6 @@ import me.hgj.jetpackmvvm.widget.state.BaseErrorCallback
 import me.hgj.jetpackmvvm.widget.state.BaseLoadingCallback
 
 /**
- * 作者　: hegaojian
- * 时间　: 2022/1/13
- * 描述　:
- */
-
-/**
  * 全局上下文，可直接拿
  */
 val appContext: Application by lazy { JetpackMvvm.app }

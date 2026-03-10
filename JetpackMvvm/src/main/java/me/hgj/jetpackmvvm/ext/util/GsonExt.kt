@@ -4,8 +4,6 @@ import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 
 /**
- * 作者　：hegaojian
- * 时间　：2025/9/29
  * 说明　：GSON封装
  */
 val gson: Gson by lazy(mode = LazyThreadSafetyMode.SYNCHRONIZED) { Gson() }

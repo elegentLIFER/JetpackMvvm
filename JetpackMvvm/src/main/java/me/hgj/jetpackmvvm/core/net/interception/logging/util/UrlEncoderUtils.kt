@@ -1,10 +1,5 @@
 package me.hgj.jetpackmvvm.core.net.interception.logging.util
 
-/**
- * 作者　: hegaojian
- * 时间　: 2020/3/26
- * 描述　:
- */
 class UrlEncoderUtils private constructor() {
     companion object {
         /**

@@ -2,8 +2,6 @@ package me.hgj.jetpackmvvm.core.net
 
 
 /**
- * 作者　: hegaojian
- * 时间　: 2020/11/4
  * 描述　: 请求失败，请求数据为空 状态类
  */
 data class LoadStatusEntity(

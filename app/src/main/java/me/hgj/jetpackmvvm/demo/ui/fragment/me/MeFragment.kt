@@ -24,8 +24,6 @@ import me.hgj.jetpackmvvm.ext.util.loadCircle
 import me.hgj.jetpackmvvm.ext.util.statusPadding
 
 /**
- * 作者　: hegaojian
- * 时间　: 2019/12/23
  * 描述　: 我的
  */
 

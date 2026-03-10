@@ -8,8 +8,6 @@ import kotlinx.coroutines.runBlocking
 import me.hgj.jetpackmvvm.ext.util.logD
 
 /**
- * 作者　：hegaojian
- * 时间　：2025/9/29
  * 说明　：初始化任务管理器
  * 示例  ：
  * ```kotlin

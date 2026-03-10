@@ -14,8 +14,6 @@ import me.hgj.jetpackmvvm.core.net.LoadingType
 import me.hgj.jetpackmvvm.ext.util.toast
 
 /**
- * 作者　：hegaojian
- * 时间　：2025/9/24
  * 描述　：自定义结果集封装类
  */
 class ApiResultObserver<T> {

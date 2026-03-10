@@ -3,8 +3,6 @@ package me.hgj.jetpackmvvm.core.net
 import androidx.annotation.IntDef
 
 /**
- * 作者　：hegaojian
- * 时间　：2025/9/24
  * 描述　：请求时的loading类型
  */
 @IntDef(LoadingType.LOADING_NULL, LoadingType.LOADING_DIALOG, LoadingType.LOADING_XML)

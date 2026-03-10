@@ -7,11 +7,6 @@ import me.hgj.jetpackmvvm.ext.util.addActivity
 import me.hgj.jetpackmvvm.ext.util.removeActivity
 import me.hgj.jetpackmvvm.ext.util.XLog
 
-/**
- * 作者　: hegaojian
- * 时间　: 2020/11/17
- * 描述　:
- */
 class KtxActivityLifecycleCallbacks : Application.ActivityLifecycleCallbacks {
 
     override fun onActivityPaused(activity: Activity) {
@@ -40,5 +35,4 @@ class KtxActivityLifecycleCallbacks : Application.ActivityLifecycleCallbacks {
     override fun onActivityResumed(activity: Activity) {
         XLog.d(activity.javaClass.simpleName)
     }
-
 }

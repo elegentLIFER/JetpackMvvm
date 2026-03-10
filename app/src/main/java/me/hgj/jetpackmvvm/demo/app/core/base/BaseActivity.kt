@@ -21,10 +21,7 @@ import me.hgj.jetpackmvvm.demo.databinding.IncludeToolbarBinding
 import me.hgj.jetpackmvvm.ext.util.getColorExt
 
 /**
- * 时间　: 2019/12/21
- * 作者　: hegaojian
  * 描述　: 你项目中的Activity基类，在这里实现显示弹窗，吐司，还有加入自己的需求操作，可以参考 BaseIView
- *
  */
 abstract class BaseActivity<VM : BaseViewModel, VB : ViewBinding> : BaseVbActivity<VM, VB>() {
 
@@ -55,6 +52,7 @@ abstract class BaseActivity<VM : BaseViewModel, VB : ViewBinding> : BaseVbActivi
             WindowInsetsCompat.CONSUMED
         }
     }
+
     /**
      * 定义了自己的头部 ，仅供参考
      */

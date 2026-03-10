@@ -5,11 +5,6 @@ import android.view.View
 import me.hgj.jetpackmvvm.R
 import me.hgj.jetpackmvvm.widget.loadsir.callback.Callback
 
-/**
- * 作者　: hegaojian
- * 时间　: 2020/12/14
- * 描述　:
- */
 class BaseLoadingCallback: Callback() {
 
     override fun onCreateView(): Int {

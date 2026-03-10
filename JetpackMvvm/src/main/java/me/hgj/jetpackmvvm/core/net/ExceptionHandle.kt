@@ -11,11 +11,6 @@ import java.net.UnknownHostException
 import java.util.concurrent.TimeoutException
 import javax.net.ssl.SSLException
 
-/**
- * 作者　：hegaojian
- * 时间　：2025/9/24
- * 说明　：
- */
 object ExceptionHandle {
 
     fun handleException(e: Throwable?): AppException {

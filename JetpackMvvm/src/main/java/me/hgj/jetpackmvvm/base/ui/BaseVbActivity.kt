@@ -6,11 +6,6 @@ import com.noober.background.BackgroundLibrary
 import me.hgj.jetpackmvvm.base.vm.BaseViewModel
 import me.hgj.jetpackmvvm.ext.util.inflateBinding
 
-/**
- * 作者　: hegaojian
- * 时间　: 2021/8/10
- * 描述　:
- */
 abstract class BaseVbActivity<VM : BaseViewModel,VB: ViewBinding> : BaseVmActivity<VM>(), BaseIView {
 
     //使用了 ViewBinding 就不需要 layoutId了，因为 会从 VB 泛型 找到相关的view

@@ -8,12 +8,6 @@ import me.hgj.jetpackmvvm.core.net.LoadStatusEntity
 import me.hgj.jetpackmvvm.util.BasePage
 
 /**
- * 作者　: hegaojian
- * 时间　: 2020/11/5
- * 描述　:
- */
-
-/**
  * 下拉刷新
  * @receiver SmartRefreshLayout
  * @param refreshAction Function0<Unit>

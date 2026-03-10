@@ -3,12 +3,6 @@ package me.hgj.jetpackmvvm.ext.util
 import android.app.Activity
 import java.util.LinkedList
 
-/**
- * 作者　：hegaojian
- * 时间　：2025/9/29
- * 说明　：
- */
-
 private val activityList = LinkedList<Activity>()
 
 /** app当前显示的Activity */

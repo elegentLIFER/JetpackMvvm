@@ -21,12 +21,6 @@ import me.hgj.jetpackmvvm.ext.util.toHtml
 import me.hgj.jetpackmvvm.ext.view.gone
 import me.hgj.jetpackmvvm.ext.view.visibleOrGone
 
-/**
- * 作者　：hegaojian
- * 时间　：2025/9/26
- * 说明　：
- */
-
 /** 封装所有的文章+项目 统一 一个Adapter，这里是用了BRV库
  *  @param showTag 是否展示标签 tag ,主页才需要展示
  *  @param onCollectClick 点击收藏回调

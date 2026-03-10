@@ -23,8 +23,6 @@ import me.hgj.jetpackmvvm.ext.view.vertical
 import me.hgj.jetpackmvvm.util.decoration.DividerOrientation
 
 /**
- * 作者　: hegaojian
- * 时间　: 2020/3/2
  * 描述　: 积分排行
  */
 class IntegralFragment : BasePageListFragment<IntegralViewModel, FragmentIntegralBinding,IntegralResponse>() {

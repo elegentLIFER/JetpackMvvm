@@ -13,13 +13,9 @@ import java.io.IOException
 import java.lang.reflect.Type
 
 /**
- *
- * 作者　: hegaojian
- * 时间　: 2020/11/2
  * 描述　: 这里是根据RxHttp实现的自定义解析器，对请求到的数据做了解包脱壳处理，该类项目build后RxHttp会自动生成对应的方法，比如
  * toAwaitResponse,toFlowResponse。 其中 @Parser(name = "Response")中的Response 等于 toAwaitXXX 和 toFlowResponse 中的XXX
  */
-
 @Parser(name = "Response")
 open class ResponseParser<T> : TypeParser<T> {
 

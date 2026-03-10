@@ -8,8 +8,6 @@ import me.hgj.jetpackmvvm.demo.databinding.FragmentMainBinding
 import me.hgj.jetpackmvvm.demo.ui.adapter.MainAdapter
 
 /**
- * 时间　: 2019/12/27
- * 作者　: hegaojian
  * 描述　: 项目主页Fragment
  */
 class MainFragment : BaseFragment<BaseViewModel, FragmentMainBinding>() {

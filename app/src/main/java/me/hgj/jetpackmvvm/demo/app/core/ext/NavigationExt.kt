@@ -11,11 +11,6 @@ import me.hgj.jetpackmvvm.demo.ui.activity.LoginActivity
 import me.hgj.jetpackmvvm.ext.util.currentActivity
 import me.hgj.jetpackmvvm.ext.util.intent.openActivity
 
-/**
- * 作者　: hegaojian
- * 时间　: 2020/5/2
- * 描述　:
- */
 fun Fragment.nav(): NavController {
     return findNavController(this)
 }

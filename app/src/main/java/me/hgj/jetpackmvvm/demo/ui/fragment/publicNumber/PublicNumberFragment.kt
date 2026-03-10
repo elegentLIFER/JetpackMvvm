@@ -12,8 +12,6 @@ import me.hgj.jetpackmvvm.demo.data.vm.PublicNumberViewModel
 import me.hgj.jetpackmvvm.ext.util.statusPadding
 
 /**
- * 作者　: hegaojian
- * 时间　: 2019/12/28
  * 描述　: 聚合公众号
  */
 class PublicNumberFragment : BaseFragment<PublicNumberViewModel, FragmentViewpagerBinding>() {

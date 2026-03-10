@@ -4,11 +4,6 @@ import android.text.TextUtils
 import android.util.Log
 import me.hgj.jetpackmvvm.ext.util.XLog
 
-/**
- * 作者　: hegaojian
- * 时间　: 2020/3/26
- * 描述　:
- */
 class LogUtils private constructor() {
     companion object {
         private const val DEFAULT_TAG = "JetpackMvvm"

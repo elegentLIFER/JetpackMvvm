@@ -22,8 +22,6 @@ import me.hgj.jetpackmvvm.ext.view.vertical
 import me.hgj.jetpackmvvm.util.decoration.DividerOrientation
 
 /**
- * 作者　: hegaojian
- * 时间　: 2020/3/10
  * 描述　: 收藏的文章集合Fragment
  */
 class CollectUrlFragment : BaseListFragment<CollectViewModel, IncludeRecyclerviewBinding,CollectUrlResponse>() {

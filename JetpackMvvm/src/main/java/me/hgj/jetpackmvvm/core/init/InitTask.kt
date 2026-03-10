@@ -3,11 +3,6 @@ package me.hgj.jetpackmvvm.core.init
 import android.app.Application
 
 /**
- * 作者　：hegaojian
- * 时间　：2025/9/29
- * 说明　：
- */
-/**
  * 初始化任务接口
  */
 interface InitTask {

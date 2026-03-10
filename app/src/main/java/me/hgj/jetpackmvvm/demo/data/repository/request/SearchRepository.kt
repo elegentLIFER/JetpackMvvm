@@ -12,8 +12,6 @@ import rxhttp.wrapper.param.toAwaitResponse
 import rxhttp.wrapper.param.toFlowResponse
 
 /**
- * 作者　：hegaojian
- * 时间　：2025/9/30
  * 说明　：搜索
  */
 object SearchRepository {

@@ -1,10 +1,5 @@
 package me.hgj.jetpackmvvm.core.net
 
-/**
- * 作者　：hegaojian
- * 时间　：2025/9/24
- * 说明　：
- */
 class AppException : Exception {
     var errorMsg: String //错误消息
     var errCode: String = "" //错误码

@@ -7,11 +7,6 @@ import me.hgj.jetpackmvvm.demo.app.core.base.BaseActivity
 import me.hgj.jetpackmvvm.demo.databinding.FragmentSettingBinding
 import me.hgj.jetpackmvvm.demo.ui.fragment.setting.SettingFragment
 
-/**
- * 作者　: hegaojian
- * 时间　: 2020/3/9
- * 描述　: 系统设置
- */
 class SettingActivity : BaseActivity<BaseViewModel, FragmentSettingBinding>() {
 
     override val showTitle =  true

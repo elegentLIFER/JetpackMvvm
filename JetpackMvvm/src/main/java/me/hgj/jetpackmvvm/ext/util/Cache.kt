@@ -15,8 +15,6 @@ val mmkv: MMKV by lazy(mode = LazyThreadSafetyMode.SYNCHRONIZED) {
 }
 
 /**
- * 作者　：hegaojian
- * 时间　：2025/9/28
  * 说明　：非空，必须提供默认值
  * 这是一个基于 MMKV 的缓存属性委托，作用是让你在声明变量时
  * 自动完成数据的存储和读取。
@@ -91,9 +89,6 @@ inline fun <reified T> cacheNullable(
 
 
 /**
- *
- * 作者　：hegaojian
- * 时间　：2025/9/28
  * 说明　：可空，必须传入类名，一般用于对象
  * 这是一个基于 MMKV 的缓存属性委托，作用是让你在声明变量时
  * 自动完成数据的存储和读取。

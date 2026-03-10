@@ -17,11 +17,6 @@ import me.hgj.jetpackmvvm.ext.view.divider
 import me.hgj.jetpackmvvm.ext.view.vertical
 import me.hgj.jetpackmvvm.util.decoration.DividerOrientation
 
-/**
- * 作者　：hegaojian
- * 时间　：2025/12/17
- * 说明　：
- */
 class TestListActivity : BasePageListActivity<IntegralViewModel, ActivityTestListBinding,IntegralHistoryResponse>() {
 
     override val showTitle = true

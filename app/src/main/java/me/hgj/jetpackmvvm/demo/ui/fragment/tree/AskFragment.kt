@@ -8,8 +8,6 @@ import me.hgj.jetpackmvvm.demo.data.model.entity.ArticleResponse
 import me.hgj.jetpackmvvm.demo.data.vm.TreeViewModel
 
 /**
- * 作者　: hegaojian
- * 时间　: 2020/3/19
  * 描述　: 每日一问
  */
 class AskFragment : BaseArticleListFragment<TreeViewModel, ArticleResponse>() {

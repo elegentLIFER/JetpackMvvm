@@ -6,11 +6,6 @@ import me.hgj.jetpackmvvm.core.net.LoadingEntity
 import me.hgj.jetpackmvvm.ext.util.getStringExt
 import me.hgj.jetpackmvvm.widget.loadsir.callback.Callback
 
-/**
- * 作者　: hegaojian
- * 时间　: 2020/11/4
- * 描述　:
- */
 interface BaseIView {
 
     fun createObserver()

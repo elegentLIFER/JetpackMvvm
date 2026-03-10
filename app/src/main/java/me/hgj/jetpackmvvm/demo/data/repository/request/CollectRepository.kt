@@ -9,8 +9,6 @@ import rxhttp.wrapper.param.RxHttp
 import rxhttp.wrapper.param.toAwaitResponse
 
 /**
- * 作者　：hegaojian
- * 时间　：2025/9/29
  * 描述　：收藏
  */
 object CollectRepository {

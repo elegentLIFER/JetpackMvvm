@@ -10,11 +10,6 @@ import me.hgj.jetpackmvvm.demo.data.vm.ProjectViewModel
 import me.hgj.jetpackmvvm.demo.databinding.FragmentViewpagerBinding
 import me.hgj.jetpackmvvm.ext.util.statusPadding
 
-/**
- * 作者　: hegaojian
- * 时间　: 2019/12/28
- * 描述　:
- */
 class ProjectFragment : BaseFragment<ProjectViewModel, FragmentViewpagerBinding>() {
 
     companion object {

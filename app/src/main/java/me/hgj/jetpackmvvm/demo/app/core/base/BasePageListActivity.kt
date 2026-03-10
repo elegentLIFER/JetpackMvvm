@@ -20,8 +20,6 @@ import me.hgj.jetpackmvvm.ext.util.loadMore
 import me.hgj.jetpackmvvm.ext.util.refresh
 
 /**
- * 作者　：hegaojian
- * 时间　：2025/9/30
  * 说明　：通用分页列表（下拉刷新，上拉加载更多，没有数据展示为空布局，请求失败展示为错误布局，点击可布局可重新请求）
  * ，写列表的时候发现全特么是重复代码，所以这里直接封装了一个统一的分页列表，子类只要关心请求数据，和绑定对应的adapter就行了
  */

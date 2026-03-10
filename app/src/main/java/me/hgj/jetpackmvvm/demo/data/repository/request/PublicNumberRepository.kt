@@ -9,8 +9,6 @@ import rxhttp.wrapper.param.RxHttp
 import rxhttp.wrapper.param.toAwaitResponse
 
 /**
- * 作者　: hegaojian
- * 时间　: 2020/11/2
  * 描述　: 公众号
  */
 object PublicNumberRepository {

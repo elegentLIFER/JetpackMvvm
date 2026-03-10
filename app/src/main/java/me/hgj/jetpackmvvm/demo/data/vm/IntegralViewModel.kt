@@ -6,11 +6,6 @@ import me.hgj.jetpackmvvm.demo.data.model.entity.IntegralResponse
 import me.hgj.jetpackmvvm.demo.data.repository.request.IntegralRepository
 import me.hgj.jetpackmvvm.core.net.LoadingType
 
-/**
- * 作者　: hegaojian
- * 时间　: 2020/3/10
- * 描述　:
- */
 class IntegralViewModel : BaseViewModel() {
 
     /** 积分数据，这里因为 UI层需要一个变量数据传递到下个页面，所以这里临时缓存了一下*/

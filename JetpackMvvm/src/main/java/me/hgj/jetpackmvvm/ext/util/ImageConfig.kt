@@ -17,8 +17,6 @@ import com.bumptech.glide.request.transition.DrawableCrossFadeFactory
 import me.hgj.jetpackmvvm.R
 
 /**
- * 作者　：hegaojian
- * 时间　：2025/9/29
  * 说明　：图片加载 封装的Glide
  */
 

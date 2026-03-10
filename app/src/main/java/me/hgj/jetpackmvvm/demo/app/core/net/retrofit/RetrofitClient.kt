@@ -7,8 +7,6 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 /**
- * 作者　：hegaojian
- * 时间　：2025/11/18
  * 描述　：简单Retrofit引入示例,演示一下使用，还有解包脱壳
  */
 object RetrofitClient {

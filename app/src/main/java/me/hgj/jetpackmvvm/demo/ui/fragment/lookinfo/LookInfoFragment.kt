@@ -25,8 +25,6 @@ import me.hgj.jetpackmvvm.ext.view.vertical
 import me.hgj.jetpackmvvm.util.decoration.DividerOrientation
 
 /**
- * 作者　: hegaojian
- * 时间　: 2020/3/4
  * 描述　: 查看他人信息
  */
 class LookInfoFragment : BaseFragment<SearchViewModel, FragmentLookinfoBinding>() {

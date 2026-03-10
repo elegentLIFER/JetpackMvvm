@@ -9,12 +9,6 @@ import me.hgj.jetpackmvvm.demo.app.init.UtilTask
 import me.hgj.jetpackmvvm.demo.app.init.WidgetTask
 import me.hgj.jetpackmvvm.ext.util.isMainProcess
 
-/**
- * 作者　: hegaojian
- * 时间　: 2019/12/23
- * 描述　:
- */
-
 class App : Application() {
     override fun onCreate() {
         super.onCreate()

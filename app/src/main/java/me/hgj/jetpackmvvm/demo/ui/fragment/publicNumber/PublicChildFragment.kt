@@ -10,8 +10,6 @@ import me.hgj.jetpackmvvm.demo.data.vm.PublicNumberViewModel
 import me.hgj.jetpackmvvm.ext.util.intent.bundle
 
 /**
- * 作者　: hegaojian
- * 时间　: 2020/2/29
  * 描述　: 公众号子Fragment
  */
 class PublicChildFragment : BaseArticleListFragment<PublicNumberViewModel, ArticleResponse>() {

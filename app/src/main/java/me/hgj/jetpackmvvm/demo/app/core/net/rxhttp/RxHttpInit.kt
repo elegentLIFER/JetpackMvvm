@@ -10,8 +10,6 @@ import java.io.File
 import java.util.concurrent.TimeUnit
 
 /**
- * 作者　：hegaojian
- * 时间　：2025/9/29
  * 说明　：rxHttp框架初始化 示例
  */
 object RxHttpInit {

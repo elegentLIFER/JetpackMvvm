@@ -26,12 +26,6 @@ import me.hgj.jetpackmvvm.ext.view.flex
 import me.hgj.jetpackmvvm.ext.view.showDialogMessage
 import me.hgj.jetpackmvvm.ext.view.vertical
 
-/**
- * 作者　: hegaojian
- * 时间　: 2020/2/29
- * 描述　:
- */
-
 class SearchFragment : BaseFragment<SearchViewModel, FragmentSearchBinding>() {
 
     override val showTitle = true

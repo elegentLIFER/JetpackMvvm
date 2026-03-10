@@ -6,11 +6,6 @@ import me.hgj.jetpackmvvm.core.data.requestFlow
 import me.hgj.jetpackmvvm.core.net.LoadingType
 import me.hgj.jetpackmvvm.demo.data.repository.request.UserRepository
 
-/**
- * 作者　: hegaojian
- * 时间　: 2019/12/23
- * 描述　:
- */
 class UserViewModel : BaseViewModel() {
 
     fun loginLiveData(username: String, password: String) = request {

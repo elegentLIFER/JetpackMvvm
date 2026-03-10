@@ -5,11 +5,6 @@ import me.hgj.jetpackmvvm.core.data.request
 import me.hgj.jetpackmvvm.demo.data.repository.request.ProjectRepository
 import me.hgj.jetpackmvvm.core.net.LoadingType
 
-/**
- * 作者　: hegaojian
- * 时间　: 2020/2/28
- * 描述　:
- */
 class ProjectViewModel : BaseViewModel() {
 
     private var pageNo = 1

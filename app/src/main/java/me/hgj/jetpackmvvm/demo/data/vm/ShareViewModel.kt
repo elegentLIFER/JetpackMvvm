@@ -8,11 +8,6 @@ import me.hgj.jetpackmvvm.demo.data.model.entity.ShareResponse
 import rxhttp.wrapper.param.RxHttp
 import rxhttp.wrapper.param.toAwaitResponse
 
-/**
- * 作者　: hegaojian
- * 时间　: 2020/3/11
- * 描述　:
- */
 class ShareViewModel : BaseViewModel() {
 
     var pageNo = 1

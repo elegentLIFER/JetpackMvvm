@@ -9,11 +9,6 @@ import me.hgj.jetpackmvvm.core.net.interception.logging.util.LogUtils
 import okhttp3.MediaType
 import okhttp3.Request
 
-/**
- * 作者　: hegaojian
- * 时间　: 2020/3/26
- * 描述　:
- */
 class DefaultFormatPrinter : FormatPrinter {
     /**
      * 打印网络请求信息, 当网络请求时 {[okhttp3.RequestBody]} 可以解析的情况

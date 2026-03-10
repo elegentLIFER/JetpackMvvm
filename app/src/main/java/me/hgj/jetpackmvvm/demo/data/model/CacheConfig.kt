@@ -3,8 +3,6 @@ package me.hgj.jetpackmvvm.demo.data.model
 import me.hgj.jetpackmvvm.ext.util.Cache
 
 /**
- * 作者　：hegaojian
- * 时间　：2025/10/10
  * 说明　：本地数据缓存管理
  */
 object CacheConfig {

@@ -14,11 +14,6 @@ import me.hgj.jetpackmvvm.demo.databinding.FragmentSystemBinding
 import me.hgj.jetpackmvvm.demo.data.vm.TreeViewModel
 import me.hgj.jetpackmvvm.ext.util.intent.bundle
 
-/**
- * 作者　: hegaojian
- * 时间　: 2020/3/4
- * 描述　:
- */
 class SystemArrFragment : BaseFragment<TreeViewModel, FragmentSystemBinding>() {
 
     override val showTitle = true

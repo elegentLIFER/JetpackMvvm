@@ -12,8 +12,6 @@ import rxhttp.wrapper.param.toAwaitResponse
 import rxhttp.wrapper.param.toFlowResponse
 
 /**
- * 作者　: hegaojian
- * 时间　: 2020/11/2
  * 描述　: 用户数据
  */
 object UserRepository {

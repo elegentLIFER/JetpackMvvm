@@ -14,9 +14,6 @@ import me.hgj.jetpackmvvm.ext.util.intent.openActivity
 
 import per.goweii.reveallayout.RevealLayout
 
-/**
- * @author CuiZhen
- */
 class CollectView @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0) : RevealLayout(context, attrs, defStyleAttr), View.OnTouchListener {
 
     private var onCollectViewClickListener: OnCollectViewClickListener? = null

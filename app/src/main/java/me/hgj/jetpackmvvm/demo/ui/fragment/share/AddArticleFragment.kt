@@ -16,12 +16,6 @@ import me.hgj.jetpackmvvm.ext.util.clickNoRepeat
 import me.hgj.jetpackmvvm.ext.view.showDialogMessage
 import me.hgj.jetpackmvvm.ext.view.textString
 
-
-/**
- * 作者　: hegaojian
- * 时间　: 2020/3/10
- * 描述　:
- */
 class AddArticleFragment : BaseFragment<ShareViewModel, FragmentShareAriticleBinding>() {
 
     override val showTitle = true

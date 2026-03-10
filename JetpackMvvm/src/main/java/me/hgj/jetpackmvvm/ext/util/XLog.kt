@@ -8,12 +8,6 @@ import me.hgj.jetpackmvvm.core.net.interception.logging.util.LogUtils
 import java.io.PrintWriter
 import java.io.StringWriter
 
-/**
- * 作者　: hegaojian
- * 时间　: 2021/8/10
- * 描述　:
- */
-
 object XLog {
 
     private val gson by lazy {

@@ -14,8 +14,6 @@ import me.hgj.jetpackmvvm.widget.state.BaseEmptyCallback
 import me.hgj.jetpackmvvm.widget.state.BaseErrorCallback
 
 /**
- * 作者　：hegaojian
- * 时间　：2025/9/29
  * 说明　：常用控件初始化
  */
 class WidgetTask(

@@ -30,11 +30,6 @@ import kotlin.let
 import kotlin.run
 import kotlin.text.isNotEmpty
 
-/**
- * 作者　: hegaojian
- * 时间　: 2020/11/18
- * 描述　:
- */
 abstract class BaseVmFragment<VM : BaseViewModel> : Fragment(), BaseIView {
 
     abstract val layoutId: Int

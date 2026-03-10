@@ -21,11 +21,6 @@ import me.hgj.jetpackmvvm.ext.view.showPwd
 import me.hgj.jetpackmvvm.ext.view.textString
 import me.hgj.jetpackmvvm.ext.view.visibleOrInvisible
 
-/**
- * 作者　: hegaojian
- * 时间　: 2019/12/24
- * 描述　:
- */
 class RegisterActivity : BaseActivity<UserViewModel, ActivityRegisterBinding>() {
 
     override val showTitle = true

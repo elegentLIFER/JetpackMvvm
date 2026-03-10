@@ -6,8 +6,6 @@ import me.hgj.jetpackmvvm.demo.data.repository.request.CollectRepository
 import me.hgj.jetpackmvvm.core.net.LoadingType
 
 /**
- * 作者　: hegaojian
- * 时间　: 2020/3/3
  * 描述　: 收藏ViewModel
  */
 open class CollectViewModel : BaseViewModel() {

@@ -12,8 +12,6 @@ import me.hgj.jetpackmvvm.demo.data.vm.CollectViewModel
 import me.hgj.jetpackmvvm.ext.util.statusPadding
 
 /**
- * 作者　: hegaojian
- * 时间　: 2020/3/10
  * 描述　: 收藏
  */
 class CollectFragment: BaseFragment<CollectViewModel, FragmentCollectBinding>() {

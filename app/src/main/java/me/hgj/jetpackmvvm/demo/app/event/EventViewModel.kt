@@ -4,8 +4,6 @@ import com.kunminx.architecture.domain.message.MutableResult
 import me.hgj.jetpackmvvm.demo.data.model.entity.CollectBus
 
 /**
- * 作者　: hegaojian
- * 时间　: 2019/5/2
  * 描述　: 在这里发送全局事件总线
  */
 object EventViewModel  {
@@ -15,5 +13,4 @@ object EventViewModel  {
 
     /** 分享文章通知 */
     val shareArticleEvent = MutableResult<Boolean>()
-
 }

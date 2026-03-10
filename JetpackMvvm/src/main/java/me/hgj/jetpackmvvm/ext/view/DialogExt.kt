@@ -14,12 +14,6 @@ import me.hgj.jetpackmvvm.databinding.LayoutBaseLoadingViewBinding
 import java.util.WeakHashMap
 
 /**
- * 作者　: hegaojian
- * 时间　: 2020/11/18
- * 描述　:
- */
-
-/**
  * 显示消息弹窗
  * @param message 显示对话框的内容 必填项
  * @param title 显示对话框的标题 默认 温馨提示

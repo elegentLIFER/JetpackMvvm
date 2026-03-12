@@ -14,5 +14,3 @@ data class IntegralResponse(
         var rank: String,
         var userId: String,
         var username: String) : Parcelable
-
-

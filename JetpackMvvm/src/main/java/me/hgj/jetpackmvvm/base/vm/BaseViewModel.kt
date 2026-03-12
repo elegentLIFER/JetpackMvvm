@@ -13,7 +13,7 @@ open class BaseViewModel : ViewModel() {
      * 内置封装好的可通知Activity/fragment 显示隐藏加载框 因为需要跟网络请求显示隐藏loading配套
      */
     //显示加载框
-    inner class UiLoadingChange {
+    class UiLoadingChange {
 
         /** 请求时loading */
         val loading by lazy { MutableResult<LoadingEntity>() }

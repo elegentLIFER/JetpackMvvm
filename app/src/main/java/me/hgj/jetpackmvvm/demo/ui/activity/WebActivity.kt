@@ -274,5 +274,4 @@ class WebActivity : BaseActivity<WebViewModel, ActivityWebBinding>() {
         mAgentWeb?.webLifeCycle?.onDestroy()
         super.onDestroy()
     }
-
 }

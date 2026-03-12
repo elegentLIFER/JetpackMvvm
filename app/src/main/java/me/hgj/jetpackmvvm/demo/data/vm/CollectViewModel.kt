@@ -14,7 +14,6 @@ open class CollectViewModel : BaseViewModel() {
 
     /**
      * 收藏 文章
-     *
      */
     fun collectArticle(id: String) = request {
         onRequest {
@@ -42,7 +41,6 @@ open class CollectViewModel : BaseViewModel() {
 
     /**
      * 收藏 网址
-     *
      */
     fun collectUrl(name: String, link: String) = request {
         onRequest {

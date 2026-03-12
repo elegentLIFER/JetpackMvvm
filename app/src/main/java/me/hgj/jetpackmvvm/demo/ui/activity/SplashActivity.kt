@@ -24,7 +24,7 @@ class SplashActivity : BaseActivity<BaseViewModel, ActivityWelcomeBinding>() {
 
     override val showTitle = false
 
-    private var resList = arrayOf("唱", "跳", "r a p")
+    private val resList = arrayOf("唱", "跳", "r a p")
 
     var isFirst by Cache(true)
 

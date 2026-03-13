@@ -30,7 +30,6 @@ abstract class BaseVbFragment<VM : BaseViewModel, VB : ViewBinding> : BaseVmFrag
         return mBind.root
     }
 
-
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null

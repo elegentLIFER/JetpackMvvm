@@ -59,6 +59,5 @@ object PolicyUtil {
                     currentActivity?.finish()
                 }
             }
-
     }
 }

@@ -131,7 +131,6 @@ private fun <T> BaseViewModel.executeRequestWithResult(requestParameterDsl: Requ
     }
 }
 
-
 /**
  * 请求参数统一封装类
  */
@@ -189,4 +188,3 @@ class RequestParameterDsl<T> {
     @LoadingType
     var loadingType = LoadingType.LOADING_NULL
 }
-

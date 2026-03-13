@@ -16,7 +16,6 @@ import java.lang.reflect.ParameterizedType
 /**
  * 描述　: ViewBinding DataBinding 反射
  */
-
 @JvmName("inflateBinding")
 fun <VB : ViewBinding> AppCompatActivity.inflateBinding(): VB =
     bindingClass<VB>(this) { clazz ->

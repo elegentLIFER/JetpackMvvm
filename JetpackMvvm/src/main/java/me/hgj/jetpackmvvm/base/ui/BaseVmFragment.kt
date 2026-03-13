@@ -130,7 +130,7 @@ abstract class BaseVmFragment<VM : BaseViewModel> : Fragment(), BaseIView {
 
     override fun onResume() {
         super.onResume()
-        if (lifecycle.currentState == Lifecycle.State.STARTED && isFirst) {
+        if (isFirst) {
             lazyLoadData()
             isFirst = false
         }

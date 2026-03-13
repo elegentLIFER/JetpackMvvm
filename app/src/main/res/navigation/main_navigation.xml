@@ -26,12 +26,10 @@
 
             <argument
                 android:name="data"
-                app:argType="me.hgj.jetpackmvvm.demo.data.model.entity.SystemResponse"
-                />
+                app:argType="me.hgj.jetpackmvvm.demo.data.model.entity.SystemResponse" />
             <argument
                 android:name="index"
-                app:argType="integer"
-                />
+                app:argType="integer" />
         </action>
         <action
             android:id="@+id/toLookInfoFragment"
@@ -80,7 +78,6 @@
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@anim/slide_in_left"
             app:popExitAnim="@anim/slide_out_right" />
-
     </fragment>
 
 
@@ -168,6 +165,4 @@
             android:name="shareName"
             app:argType="string" />
     </action>
-
-
 </navigation>
